@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textProgressTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Learning Progress"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textLessonsCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lessons Completed: 3/10"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarLessons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="30"
+            android:max="100"
+            style="@android:style/Widget.ProgressBar.Horizontal" />
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 75%"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

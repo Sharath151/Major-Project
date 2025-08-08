@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EduRural AI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnChatbot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Learning (Chatbot)"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Progress"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

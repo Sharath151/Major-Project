@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069183305745",
+    "project_id": "edurural-ef4b8",
+    "storage_bucket": "edurural-ef4b8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069183305745:android:762504e11e43f7df5ec9b0",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoa6wjn6Rje3Rk6423BD6Sw_-ieGZz_g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
